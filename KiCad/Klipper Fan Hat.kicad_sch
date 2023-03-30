@@ -2857,7 +2857,7 @@
     )
     (pin "1" (uuid fd2c46a1-7aae-42a9-93da-4ab8c0ebf781))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR01") (unit 1)
         )
@@ -2882,7 +2882,7 @@
     )
     (pin "1" (uuid fdfe2621-3322-4e6b-8d8a-a69772548e87))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR04") (unit 1)
         )
@@ -2907,7 +2907,7 @@
     )
     (pin "1" (uuid c4a8cca2-2b39-45ae-a676-abbcbbb9291c))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR02") (unit 1)
         )
@@ -2932,7 +2932,7 @@
     )
     (pin "1" (uuid 6d128834-dfd6-4792-956f-f932023802bf))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR03") (unit 1)
         )
@@ -2996,7 +2996,7 @@
     (pin "8" (uuid 47c7060d-0fda-4147-a0fd-4f06b00f4059))
     (pin "9" (uuid 782d2c1f-9599-409d-a3cc-c1b6fda247d8))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J1") (unit 1)
         )
@@ -3021,7 +3021,7 @@
     )
     (pin "1" (uuid 0e40439d-c4ed-4b32-92fd-a4e43796de5e))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR026") (unit 1)
         )
@@ -3046,7 +3046,7 @@
     )
     (pin "1" (uuid f2d5a639-422b-4d2f-93fa-cef1d7acc65d))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR018") (unit 1)
         )
@@ -3071,7 +3071,7 @@
     )
     (pin "1" (uuid 432d8083-f942-42df-a247-88b2d2fb52fd))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR027") (unit 1)
         )
@@ -3099,7 +3099,7 @@
     (pin "3" (uuid 9207bf87-809d-4a8b-877e-b8f84e25bf0e))
     (pin "4" (uuid 102700e1-afd2-4b2d-856a-c4ad82262b70))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J3") (unit 1)
         )
@@ -3129,7 +3129,7 @@
     (pin "5" (uuid b0a07878-dddf-4d8f-9ffe-592425f96511))
     (pin "6" (uuid d330e5bb-9a5b-473a-b46b-625503c13d7d))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J5") (unit 1)
         )
@@ -3155,7 +3155,7 @@
     (pin "1" (uuid e13b4ec0-0b1a-4833-a57f-adf38fe98aef))
     (pin "2" (uuid 9ff3840e-e443-49e8-9fe8-411a314c02cc))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C1") (unit 1)
         )
@@ -3181,7 +3181,7 @@
     (pin "1" (uuid 6e5f403c-6967-49d6-a002-3d50d518258b))
     (pin "2" (uuid a595277d-cc30-4aa1-8d6d-c6a263c8ae05))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "F1") (unit 1)
         )
@@ -3207,7 +3207,7 @@
     (pin "1" (uuid 889c01cd-c70e-4314-a6ee-3c42d6ee85cd))
     (pin "2" (uuid 9a00b3a0-aefc-4587-a5b5-25f002687b71))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D5") (unit 1)
         )
@@ -3234,7 +3234,7 @@
     (pin "2" (uuid 5925f4e6-83d1-4511-9317-e4cb454a064b))
     (pin "3" (uuid b62aede8-074a-45d6-8508-921ccbb3ac6a))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q1") (unit 1)
         )
@@ -3260,7 +3260,7 @@
     (pin "1" (uuid dbe3eb14-889d-4fab-b972-64af4574fabb))
     (pin "2" (uuid 973ddddb-f37f-4bf8-b80a-fc5a989d9aa1))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R12") (unit 1)
         )
@@ -3285,7 +3285,7 @@
     )
     (pin "1" (uuid 1b102be6-66d8-4287-aa53-320c589dd06c))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR028") (unit 1)
         )
@@ -3311,7 +3311,7 @@
     (pin "1" (uuid 111f514f-7d07-4fbf-8f67-9c13dc81bbaa))
     (pin "2" (uuid d4dbef84-6b9c-4289-94f9-148b14e4dea1))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R19") (unit 1)
         )
@@ -3338,7 +3338,7 @@
     (pin "2" (uuid 674924ff-74bb-4c4c-9a34-4c7a7f4438d9))
     (pin "3" (uuid 654d5759-3203-4143-b180-c7e139fe7d3b))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JP2") (unit 1)
         )
@@ -3363,7 +3363,7 @@
     )
     (pin "1" (uuid ceb1aff9-c26b-4f46-a5ad-e54734edb468))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR033") (unit 1)
         )
@@ -3389,7 +3389,7 @@
     (pin "1" (uuid c26b8bce-ef1b-44c3-8d6f-bdc9a8551c9b))
     (pin "2" (uuid 7488f874-1953-4813-81b9-cd4227008ee3))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R1") (unit 1)
         )
@@ -3415,7 +3415,7 @@
     (pin "1" (uuid 0e8b9a92-7e40-40d8-89df-86ae0fb74555))
     (pin "2" (uuid c3be923e-939f-4ba8-b598-0d4b82ed5bf1))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D2") (unit 1)
         )
@@ -3441,7 +3441,7 @@
     (pin "1" (uuid fb8b7783-7cac-4e4d-80d4-a352fbfe6bd9))
     (pin "2" (uuid 9b95e382-b9a6-47c1-a888-f79574de7d2b))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D3") (unit 1)
         )
@@ -3467,7 +3467,7 @@
     (pin "1" (uuid 957ad321-f33b-4e92-a136-6fa4d8386490))
     (pin "2" (uuid d6f95e22-6317-44a6-8134-aa0016eef5d0))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R20") (unit 1)
         )
@@ -3492,7 +3492,7 @@
     )
     (pin "1" (uuid 2e2a7f9f-eec8-438c-85da-b10e57218b3c))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR021") (unit 1)
         )
@@ -3518,7 +3518,7 @@
     (pin "1" (uuid 5f3d52c0-8695-4fed-acb1-c20223596ee1))
     (pin "2" (uuid 2c2b7d29-de91-406f-955a-314802134f11))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D4") (unit 1)
         )
@@ -3544,7 +3544,7 @@
     (pin "1" (uuid 7ba19c1d-f428-4b89-83fb-c6ad1d6d2148))
     (pin "2" (uuid de145fa0-f635-4c8e-889f-d6709acaa8f4))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D6") (unit 1)
         )
@@ -3570,7 +3570,7 @@
     (pin "1" (uuid fdc46451-c6f6-4e61-a279-8b8a66e9a1a2))
     (pin "2" (uuid 2384ef78-378a-4eb6-8ab9-ab63334378e7))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FAN2") (unit 1)
         )
@@ -3595,7 +3595,7 @@
     )
     (pin "1" (uuid cb6732b3-fce5-41ec-b64a-3cda7e222170))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR020") (unit 1)
         )
@@ -3620,7 +3620,7 @@
     )
     (pin "1" (uuid a061e256-31f5-466a-a9ca-09210dcba8ce))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR09") (unit 1)
         )
@@ -3646,7 +3646,7 @@
     (pin "1" (uuid 6027cf18-3c97-476a-914a-bf03e2794017))
     (pin "2" (uuid d8307d78-9c27-4726-8324-ecb2ccfc08bc))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "WP1") (unit 1)
         )
@@ -3673,7 +3673,7 @@
     (pin "2" (uuid 2f120a0a-3195-4246-89d5-8e028872a550))
     (pin "3" (uuid 0da622b6-b095-47df-8368-2a1e6937e018))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JP5") (unit 1)
         )
@@ -3698,7 +3698,7 @@
     )
     (pin "1" (uuid 9dd81928-99ba-40e1-863c-0fcc4d2273d2))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR013") (unit 1)
         )
@@ -3724,7 +3724,7 @@
     (pin "1" (uuid 7cde02c4-f8a8-490f-b876-ff0fbb01400a))
     (pin "2" (uuid c661874e-a9fd-4101-9fe3-69effeaa14a5))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C3") (unit 1)
         )
@@ -3750,7 +3750,7 @@
     (pin "1" (uuid a4f8781e-a374-44fb-a7ca-795cf3eb893c))
     (pin "2" (uuid dbe59a22-f661-4a8c-ac48-ca5e69f63f72))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R2") (unit 1)
         )
@@ -3776,7 +3776,7 @@
     (pin "1" (uuid e5a01cb0-a1ef-4e20-b817-626a53fb8eab))
     (pin "2" (uuid 60e5536e-5311-4bc1-b6b9-8f1eca76013f))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C2") (unit 1)
         )
@@ -3801,7 +3801,7 @@
     )
     (pin "1" (uuid 95bb9371-29dc-486d-8319-3c992c77fef5))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0101") (unit 1)
         )
@@ -3827,7 +3827,7 @@
     (pin "1" (uuid 66aa6bc2-3d81-4330-8faa-d7f07eee2cf6))
     (pin "2" (uuid 191d90e6-0ec9-4653-a051-f609250ef5e1))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R9") (unit 1)
         )
@@ -3853,7 +3853,7 @@
     (pin "1" (uuid 3edea5bc-7c35-44b8-9a38-e88b0494a54b))
     (pin "2" (uuid e30c12ba-b2b3-4e28-88d3-b2ee15b41871))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R4") (unit 1)
         )
@@ -3880,7 +3880,7 @@
     (pin "2" (uuid 166645c6-9fc5-482d-81d0-41eb5491573a))
     (pin "3" (uuid 53bc1cb1-ee99-4718-9186-396a9e4b629e))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q3") (unit 1)
         )
@@ -3905,7 +3905,7 @@
     )
     (pin "1" (uuid 6390ae36-9b16-4d30-9790-89937ce47987))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR019") (unit 1)
         )
@@ -3930,7 +3930,7 @@
     )
     (pin "1" (uuid a80c282a-0621-4b6c-afb6-d379dfd45725))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR06") (unit 1)
         )
@@ -3962,7 +3962,7 @@
     (pin "7" (uuid 133e92da-ba57-4010-9b52-6c371a2f1d86))
     (pin "8" (uuid c56f28bf-cf40-4e4e-a9f4-f21b10a5a1a0))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "U1") (unit 1)
         )
@@ -3989,7 +3989,7 @@
     (pin "2" (uuid 4942253e-0af2-44ad-9b77-60959b284457))
     (pin "3" (uuid 008f0176-9e74-47b1-a5ed-6a0d120bc09b))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JP1") (unit 1)
         )
@@ -4014,7 +4014,7 @@
     )
     (pin "1" (uuid d3b1f1ed-8ab4-44fa-85db-8e55042d801b))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR032") (unit 1)
         )
@@ -4041,7 +4041,7 @@
     (pin "2" (uuid 754082fc-075d-4335-a1cb-ec00cc6b043b))
     (pin "3" (uuid b4bae990-6a5b-468d-9dd5-df70063961aa))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q4") (unit 1)
         )
@@ -4067,7 +4067,7 @@
     (pin "1" (uuid 0b249e70-2126-4e00-a06e-eb39bdfa5066))
     (pin "2" (uuid cec16d20-011d-46cc-bbdb-6af0103d2852))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "T1") (unit 1)
         )
@@ -4092,7 +4092,7 @@
     )
     (pin "1" (uuid b8390459-46f4-40b4-926c-1292ac90354b))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR015") (unit 1)
         )
@@ -4117,7 +4117,7 @@
     )
     (pin "1" (uuid 0ea8b54f-ec2b-4f19-a6f6-032fd169b193))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR08") (unit 1)
         )
@@ -4144,7 +4144,7 @@
     (pin "2" (uuid 6395ed87-0975-4fd6-ab39-5f337324d5d7))
     (pin "3" (uuid 9ac10452-05ee-44e1-8f81-834b0521b7d5))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JP4") (unit 1)
         )
@@ -4170,7 +4170,7 @@
     (pin "1" (uuid 47dce63c-23c2-4f28-b0ad-da6e95958537))
     (pin "2" (uuid 2d32b7a4-a6b9-4042-9a96-69fcf381360e))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "T0") (unit 1)
         )
@@ -4195,7 +4195,7 @@
     )
     (pin "1" (uuid 31933939-09c6-4f35-95fd-4b76b75b72fd))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR017") (unit 1)
         )
@@ -4222,7 +4222,7 @@
     (pin "2" (uuid 820ee99d-d8d0-4a97-9ce1-6e17fb3b217f))
     (pin "3" (uuid 5efacce8-d68a-4d40-9dfa-1740dc40123c))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q2") (unit 1)
         )
@@ -4248,7 +4248,7 @@
     (pin "1" (uuid 61d818f9-4071-4b22-8243-432e1a1600c7))
     (pin "2" (uuid df32fc4d-ebcf-4a2a-a7fb-9c475d1d9137))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R6") (unit 1)
         )
@@ -4274,7 +4274,7 @@
     (pin "1" (uuid b30042ff-8f5d-4c88-9f39-294e09f2d7e9))
     (pin "2" (uuid a1a77936-5de1-48e0-96f7-3cea38a74204))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R16") (unit 1)
         )
@@ -4299,7 +4299,7 @@
     )
     (pin "1" (uuid 6854fdee-d69e-42c8-8c92-f2be1d8ed136))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR022") (unit 1)
         )
@@ -4325,7 +4325,7 @@
     (pin "1" (uuid 82282e95-38de-4354-aa53-1b5dba733cdf))
     (pin "2" (uuid 8adcea1d-2ed5-4f18-af8b-149e0d0b92f1))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FAN1") (unit 1)
         )
@@ -4350,7 +4350,7 @@
     )
     (pin "1" (uuid eb8265ea-6315-4b88-9749-080cfdfcecea))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR010") (unit 1)
         )
@@ -4375,7 +4375,7 @@
     )
     (pin "1" (uuid 740ae920-34a8-46c1-89a4-004470de72d3))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR011") (unit 1)
         )
@@ -4402,7 +4402,7 @@
     (pin "2" (uuid 80545bc8-d382-4297-a6b7-e77f63da2a5c))
     (pin "3" (uuid c688e3ca-a2d4-4964-a1df-7e59e0e34d33))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J4") (unit 1)
         )
@@ -4428,7 +4428,7 @@
     (pin "1" (uuid ea87c5bc-7281-419a-b22d-91c4833adec8))
     (pin "2" (uuid af8b86e6-d94d-4873-a313-dc2bda99a5b0))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "D1") (unit 1)
         )
@@ -4454,7 +4454,7 @@
     (pin "1" (uuid d7fdede8-88d9-459b-9954-bc7939f07468))
     (pin "2" (uuid 14ee1835-817b-403e-b267-42ce3f0060fc))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R17") (unit 1)
         )
@@ -4480,7 +4480,7 @@
     (pin "1" (uuid ae4f6373-728d-4228-9d41-70e5bf123257))
     (pin "2" (uuid 3dbc3c1e-760e-4693-86eb-9af667f6bbc0))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R3") (unit 1)
         )
@@ -4506,7 +4506,7 @@
     (pin "1" (uuid be1b252f-1423-44e5-8849-4fdcff89d9a6))
     (pin "2" (uuid c71e575d-3676-4bf5-8c06-6e7f0d25734b))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FAN4") (unit 1)
         )
@@ -4532,7 +4532,7 @@
     (pin "1" (uuid eae7562a-f58f-4272-a564-1f1bb50b6ab0))
     (pin "2" (uuid fc6acada-6e1e-4848-9125-72116424d198))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R10") (unit 1)
         )
@@ -4558,7 +4558,7 @@
     (pin "1" (uuid 3acf8208-ce5f-44eb-884b-792238ed8622))
     (pin "2" (uuid 380a1473-193f-42b0-b926-9dab344f9ceb))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R8") (unit 1)
         )
@@ -4583,7 +4583,7 @@
     )
     (pin "1" (uuid 6d128834-dfd6-4792-956f-f932023802c0))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0102") (unit 1)
         )
@@ -4608,7 +4608,7 @@
     )
     (pin "1" (uuid e8b563ce-0dff-44b8-a11d-be8d5feb0556))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR05") (unit 1)
         )
@@ -4637,7 +4637,7 @@
     (pin "4" (uuid daae0f1e-3aec-4eef-88b8-848cebb67348))
     (pin "5" (uuid 47b37eab-8e18-4642-a0f9-a4bb9a4dff82))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J2") (unit 1)
         )
@@ -4663,7 +4663,7 @@
     (pin "1" (uuid 40f6be4b-e62d-44df-acc0-66141428d6a6))
     (pin "2" (uuid e4569185-49bb-4a66-a8c2-b5f9afa4d5b1))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R13") (unit 1)
         )
@@ -4688,7 +4688,7 @@
     )
     (pin "1" (uuid 50ed4c0d-cf5e-478d-a023-986d681ab0e6))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR030") (unit 1)
         )
@@ -4713,7 +4713,7 @@
     )
     (pin "1" (uuid 6b762868-5bc1-46af-a3a8-3920a8aa8eda))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR016") (unit 1)
         )
@@ -4739,7 +4739,7 @@
     (pin "1" (uuid 2e36658c-7656-4d10-b580-5cad2e945f91))
     (pin "2" (uuid b2a8e8ca-ffb2-41b3-bf6c-e84059d349a9))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J6") (unit 1)
         )
@@ -4765,7 +4765,7 @@
     (pin "1" (uuid 3115f08f-4f8d-4a32-a88c-eef865286e2e))
     (pin "2" (uuid 8496d408-8f03-45ce-aca5-df87751ca1b5))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FAN3") (unit 1)
         )
@@ -4790,7 +4790,7 @@
     )
     (pin "1" (uuid 4b74f3f2-06b9-4ee6-a1ef-0518d4b0b5b7))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR07") (unit 1)
         )
@@ -4816,7 +4816,7 @@
     (pin "1" (uuid 151c96b5-9412-452f-b48d-e50329180629))
     (pin "2" (uuid 1664513c-7949-4bf4-81ae-aa207758ac70))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R5") (unit 1)
         )
@@ -4842,7 +4842,7 @@
     (pin "1" (uuid 205a85ce-5d34-4175-ad32-8d650fc886d8))
     (pin "2" (uuid 1765499e-1629-4d4c-90f6-09c4c31adcb9))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R15") (unit 1)
         )
@@ -4868,7 +4868,7 @@
     (pin "1" (uuid 10aef8e4-0c0c-4a37-a85c-0c8af4fd8dc3))
     (pin "2" (uuid 0af58d53-4755-48c2-80de-364577649d9a))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R18") (unit 1)
         )
@@ -4893,7 +4893,7 @@
     )
     (pin "1" (uuid 2b1fada1-50b0-4e5a-82fb-a68db6a5e608))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR0103") (unit 1)
         )
@@ -4919,7 +4919,7 @@
     (pin "1" (uuid a1505837-b794-4349-ae25-86f2be41e2b6))
     (pin "2" (uuid 0f53b641-e041-4441-bcc6-6faf0b667e8f))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R14") (unit 1)
         )
@@ -4945,7 +4945,7 @@
     (pin "1" (uuid 6a1661a5-122c-4a3f-8b25-5b5e22b2a70b))
     (pin "2" (uuid 05b36d67-7aba-4c56-a6d1-750a31516074))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "FAN5") (unit 1)
         )
@@ -4972,7 +4972,7 @@
     (pin "2" (uuid 83d5395c-55ba-480c-8de7-4fbdd4d3a926))
     (pin "3" (uuid 1365b42e-0905-401e-bf81-ec26a6cc4b3d))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "JP3") (unit 1)
         )
@@ -4997,7 +4997,7 @@
     )
     (pin "1" (uuid 72798639-0f05-48b7-b186-09b7c6b7e1d5))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR034") (unit 1)
         )
@@ -5022,7 +5022,7 @@
     )
     (pin "1" (uuid ed9d9d96-7ba4-4c47-be02-3df6a5403dd6))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR025") (unit 1)
         )
@@ -5048,7 +5048,7 @@
     (pin "1" (uuid b553c394-1ccc-4a18-bc6a-6c9623e26b5f))
     (pin "2" (uuid 962baa1c-46ab-4a43-bd70-a6164cdbabee))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R11") (unit 1)
         )
@@ -5073,7 +5073,7 @@
     )
     (pin "1" (uuid 5a5d56c5-a6d1-46c6-a8f0-a4e365132179))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR024") (unit 1)
         )
@@ -5098,7 +5098,7 @@
     )
     (pin "1" (uuid 6422880e-8be1-4f70-8c4c-c7c51e0944a2))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR012") (unit 1)
         )
@@ -5124,7 +5124,7 @@
     (pin "1" (uuid 2fddf9dd-f91e-4913-9d58-5cc30f325c92))
     (pin "2" (uuid 6321195b-c7ff-4ee1-89ed-7862a97b839a))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "R7") (unit 1)
         )
@@ -5149,7 +5149,7 @@
     )
     (pin "1" (uuid 6a5d20b2-0a4d-4f62-bbdc-996653c23457))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR029") (unit 1)
         )
@@ -5174,7 +5174,7 @@
     )
     (pin "1" (uuid 95682a20-4f1f-4a73-aef7-bfc836a65385))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR014") (unit 1)
         )
@@ -5199,7 +5199,7 @@
     )
     (pin "1" (uuid 09417e82-1353-431c-bd34-e1618ad7cd7b))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR035") (unit 1)
         )
@@ -5224,7 +5224,7 @@
     )
     (pin "1" (uuid 58acf8c7-d520-46fa-be21-6b27230bdf28))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR031") (unit 1)
         )
@@ -5249,7 +5249,7 @@
     )
     (pin "1" (uuid 144f9dd4-d364-4814-8fb3-0978980e5d29))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "#PWR023") (unit 1)
         )
@@ -5276,7 +5276,7 @@
     (pin "2" (uuid 18081a75-0890-4155-896e-ebfde5af1272))
     (pin "3" (uuid d3ded894-50cb-43b6-8ddf-563767ef9e39))
     (instances
-      (project "Klipper Expander Hat"
+      (project "Klipper Fan Hat"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "Q5") (unit 1)
         )
