@@ -6,7 +6,11 @@
 
   (paper "A3")
   (title_block
-    (date "15 nov 2012")
+    (title "Klipper Fan Hat")
+    (date "26 apr 2023")
+    (rev "V2")
+    (comment 1 "Created by Michael Thomas")
+    (comment 2 "GNU General Public License v3.0")
   )
 
   (layers
