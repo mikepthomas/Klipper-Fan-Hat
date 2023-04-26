@@ -83,7 +83,7 @@ setgpio  12    OUTPUT    DEFAULT
 setgpio  13    OUTPUT    DEFAULT
 #setgpio  14    INPUT     DEFAULT
 #setgpio  15    INPUT     DEFAULT
-#setgpio  16    INPUT     DEFAULT
+setgpio  16    OUTPUT    DEFAULT
 setgpio  17    OUTPUT    DEFAULT
 setgpio  18    OUTPUT    DEFAULT
 setgpio  19    OUTPUT    DEFAULT
