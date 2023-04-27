@@ -69,32 +69,32 @@ back_power 2
 
 #         GPIO  FUNCTION  PULL
 #         ----  --------  ----
-#setgpio  2     INPUT     DEFAULT
-#setgpio  3     INPUT     DEFAULT
-setgpio  4     INPUT     DEFAULT
-setgpio  5     INPUT     DEFAULT
-setgpio  6     INPUT     DEFAULT
-#setgpio  7     INPUT     DEFAULT
-#setgpio  8     INPUT     DEFAULT
-#setgpio  9     INPUT     DEFAULT
-#setgpio  10    INPUT     DEFAULT
-#setgpio  11    INPUT     DEFAULT
-setgpio  12    OUTPUT    DEFAULT
-setgpio  13    OUTPUT    DEFAULT
-#setgpio  14    INPUT     DEFAULT
-#setgpio  15    INPUT     DEFAULT
-setgpio  16    OUTPUT    DEFAULT
-setgpio  17    OUTPUT    DEFAULT
-setgpio  18    OUTPUT    DEFAULT
-setgpio  19    OUTPUT    DEFAULT
-#setgpio  20    INPUT     DEFAULT
-#setgpio  21    INPUT     DEFAULT
-#setgpio  22    INPUT     DEFAULT
-#setgpio  23    INPUT     DEFAULT
-#setgpio  24    INPUT     DEFAULT
-#setgpio  25    INPUT     DEFAULT
-#setgpio  26    INPUT     DEFAULT
-#setgpio  27    INPUT     DEFAULT
+#setgpio  2     INPUT     DEFAULT   # J3 (I2C SDA1)
+#setgpio  3     INPUT     DEFAULT   # J3 (I2C SCL1)
+setgpio   4     INPUT     DEFAULT   # J4 (1-wire)
+setgpio   5     INPUT     DEFAULT   # J5
+setgpio   6     INPUT     DEFAULT   # J6
+#setgpio  7     INPUT     DEFAULT   # Not Connected (SPI CE1)
+#setgpio  8     INPUT     DEFAULT   # J7 (SPI CE0)
+#setgpio  9     INPUT     DEFAULT   # J7 (SPI MISO)
+#setgpio  10    INPUT     DEFAULT   # J7 (SPI MOSI)
+#setgpio  11    INPUT     DEFAULT   # J7 (SPI SCLK)
+#setgpio  12    OUTPUT    DEFAULT   # FAN2 (Cannot enable hardware PWM if set)
+#setgpio  13    OUTPUT    DEFAULT   # FAN4 (Cannot enable hardware PWM if set)
+#setgpio  14    INPUT     DEFAULT   # J2 (Serial TX)
+#setgpio  15    INPUT     DEFAULT   # J2 (Serial RX)
+setgpio   16    OUTPUT    DEFAULT   # Status LED
+setgpio   17    OUTPUT    DEFAULT   # FAN5 (Pi Cooling Fan)
+#setgpio  18    OUTPUT    DEFAULT   # FAN1 (Cannot enable hardware PWM if set)
+#setgpio  19    OUTPUT    DEFAULT   # FAN3 (Cannot enable hardware PWM if set)
+#setgpio  20    INPUT     DEFAULT   # Not Connected
+#setgpio  21    INPUT     DEFAULT   # Not Connected
+#setgpio  22    INPUT     DEFAULT   # Not Connected
+#setgpio  23    INPUT     DEFAULT   # Not Connected
+#setgpio  24    INPUT     DEFAULT   # Not Connected
+#setgpio  25    INPUT     DEFAULT   # Not Connected
+#setgpio  26    INPUT     DEFAULT   # Not Connected
+#setgpio  27    INPUT     DEFAULT   # Not Connected
 
 ########################################################################
 # Settings for bank 1 (only valid for CM1/3/3+/4S). Setting one or more of
