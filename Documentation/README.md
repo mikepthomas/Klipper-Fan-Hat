@@ -3,7 +3,7 @@
   - [Power In](#power-in)
   - [Serial Header](#serial-header)
   - [I2C Header](#i2c-header)
-  - [1-wire Header](#i2c-header)
+  - [1-wire Header](#1-wire-header)
   - [GPIO Header](#gpio-header)
   - [SPI Header](#spi-header)
   - [Fan Mosfets](#fan-mosfets)
