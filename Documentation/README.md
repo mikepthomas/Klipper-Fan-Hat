@@ -1,63 +1,210 @@
 - [Components](#components)
   - [Indicator LEDs](#indicator-leds)
-  - [Serial Header](#serial-header)
   - [Power In](#power-in)
-  - [Fan Mosfets](#fan)
+  - [Serial Header](#serial-header)
   - [I2C Header](#i2c-header)
   - [1-wire Header](#i2c-header)
-  - [GPIO Headers](#gpio-headers)
+  - [GPIO Header](#gpio-header)
   - [SPI Header](#spi-header)
+  - [Fan Mosfets](#fan-mosfets)
 - [Setup](#setup)
 
 # Components
 
 ## Indicator LEDs
 
-![Indicator LEDs](../Images/indicator-leds.jpg)
+There are 7 status indicator LEDs on the board:
 
-![Indicator LEDs Schematic](../Images/indicator-leds-schematic.jpg)
+- Status LED to indicate that the board is communicating with Klipper (LED)
+- VCC status indicates that there is power present on the Vin and GND feeding the board through the screw terminals (J1)
+- 5 Fan Status LEDs to indicate if the Fan Mosfets have power applied to them (FAN1-FAN5)
 
-## Serial Header
+<img alt="Indicator LEDs" src="../Images/indicator-leds.jpg" width="600"/>
 
-![Serial Header](../Images/serial-header.jpg)
+The Status LED is connected directly to GPIO16 with a current limiting resistor.
 
-![Serial Header Schematic](../Images/serial-header-schematic.jpg)
+<img alt="Indicator LEDs Schematic" src="../Images/indicator-leds-schematic.jpg" width="300"/>
+
+Example klipper ready status configuration:
+
+```bash
+[static_digital_output status_led]
+pins: rpi:gpio16
+```
 
 ## Power In
 
-![Power In](../Images/power-in.jpg)
+VCC and GND are for feeding power to the Mosfets, this would typically be either 12V or 24V.
 
-![Power In Schematic](../Images/power-in-schematic.jpg)
+<img alt="Power In" src="../Images/power-in.jpg" width="300"/>
 
-## Fan Mosfets
+The fuse is a micro blade type fuse and should be chosen to the maximum draw of all of the MOSFET fed devices.
 
-![Fan Mosfets](../Images/fan-mosfets.jpg)
+For example, if you are running a 40W heater, 2 5W fans and 1 2W fan, you will need a total of 62W of power. At 24V, this would translate to 62W/24V = 2.58A. The closest fuse might be a 5A fuse, which you should use.
 
-![Fan Mosfets Schematic](../Images/fan-mosfets-schematic.jpg)
+Maximum power should not exceed 12A as the MOSFETs are each rated to a maximum of 3A.
+
+<img alt="Power In Schematic" src="../Images/power-in-schematic.jpg" width="300"/>
+
+## Serial Header
+
+SKR Pico compatible interface, can be used to both power the Raspberry Pi and communicate with the MCU over Serial.
+
+<img alt="Serial Header" src="../Images/serial-header.jpg" width="300"/>
+
+The 5V pins are connected directly to the Raspberry Pi 5V pins and also supply 5V to the mosfet power selector headers.
+
+<img alt="Serial Header Schematic" src="../Images/serial-header-schematic.jpg" width="300"/>
 
 ## I2C Header
 
-![I2C Header](../Images/i2c-header.jpg)
+Contains a 3.3V I2C bus for connecting displays, and other sensors such as environemntal sensors and breakout expanders. This plugs into J3.
 
-![I2C Header Schematic](../Images/i2c-header-schematic.jpg)
+<img alt="I2C Header" src="../Images/i2c-header.jpg" width="300"/>
+
+There are no Pull Up resistors on the I2C Bus as the Raspberry Pi already includes them.
+
+<img alt="I2C Header Schematic" src="../Images/i2c-header-schematic.jpg" width="300"/>
+
+Example display configuration:
+
+```bash
+[display]
+lcd_type: sh1106
+i2c_mcu: rpi
+i2c_bus: i2c.1
+```
+
+Example HTU21D temperature sensor configuration:
+
+```bash
+[temperature_sensor enclosure_temp]
+sensor_type: HTU21D
+i2c_mcu: rpi
+i2c_bus: i2c.1
+
+[gcode_macro QUERY_ENCLOSURE]
+gcode:
+    {% set sensor = printer["htu21d enclosure_temp"] %}
+    {action_respond_info(
+        "Temperature: %.2f C\n"
+        "Humidity: %.2f%%" % (
+            sensor.temperature,
+            sensor.humidity))}
+```
 
 ## 1-wire Header
 
-![1-wire Header](../Images/1-wire-header.jpg)
+The 1-wire connector can be used for connecting 1-wire sensors or can also be used as another generic GPIO Header.
 
-![1-wire Header Schematic](../Images/1-wire-header-schematic.jpg)
+<img alt="1-wire Header" src="../Images/1-wire-header.jpg" width="300"/>
+
+The 1-wire pin, GPIO4 is pulled up to 3V3 with a 3.9k resistor.
+
+<img alt="1-wire Header Schematic" src="../Images/1-wire-header-schematic.jpg" width="300"/>
+
+Example Output Pin configuration:
+
+```bash
+[output_pin gpio4]
+pin: rpi:gpio4
+value: 0
+shutdown_value: 0
+```
+
+Example DS18B20 temperature sensor configuration:
+
+```bash
+[temperature_sensor enclosure_temp]
+sensor_type: DS18B20
+serial_no: 28-031674b175ff # Find with: ls /sys/bus/w1/devices/
+ds18_report_time: 3.0 # Seconds between readings, minimum of 1.0
+sensor_mcu: rpi
+```
 
 ## GPIO Header
 
-![GPIO Header](../Images/gpio-header.jpg)
+The GPIO headers J4 and J5 (3V3, GPIO, GND) is available for creative uses.
 
-![GPIO Header Schematic](../Images/gpio-header-schematic.jpg)
+Examples of what this can be used for include adding external mosfets, relays or a filament runout sensors.
+
+<img alt="GPIO Header" src="../Images/gpio-header.jpg" width="300"/>
+
+Both GPIO5 and GPIO6 pins are pulled up to 3V3 with a 3.9k resistor.
+
+<img alt="GPIO Header Schematic" src="../Images/gpio-header-schematic.jpg" width="300"/>
+
+Example Output Pin configuration:
+
+```bash
+[output_pin gpio5]
+pin: rpi:gpio5
+value: 0
+shutdown_value: 0
+```
+
+Example Filament Sensor configuration:
+
+```bash
+[filament_switch_sensor filament_sensor]
+pause_on_runout: true
+switch_pin: ^!rpi:gpio5
+```
 
 ## SPI Header
 
-![SPI Header](../Images/spi-header.jpg)
+Contains a 3.3V SPI bus for connecting displays, and other sensors such as environmental sensors and breakout expanders. This plugs into J7.
 
-![SPI Header Schematic](../Images/spi-header-schematic.jpg)
+<img alt="SPI Header" src="../Images/spi-header.jpg" width="300"/>
+
+This connects directly to the Raspberry Pi's SPI0 and uses CE0, CE1 is left unconnected.
+
+<img alt="SPI Header Schematic" src="../Images/spi-header-schematic.jpg" width="300"/>
+
+Example AXDL345 configuration:
+
+```bash
+[adxl345]
+cs_pin: rpi:None
+
+[resonance_tester]
+accel_chip: adxl345
+probe_points: 150, 150, 20
+```
+
+## Fan Mosfets
+
+5 x 3A mosfets for controlling LED's, Heater, Fans, and other accessories connected to pins GPIO12, GPIO13, GPIO17, GPIO18 and GPIO19.
+
+<img alt="Fan Mosfets" src="../Images/fan-mosfets.jpg" width="300"/>
+
+The voltage selector header can be used to connect each mosfet to either the 5V rail or VCC.
+
+<img alt="Fan Mosfets Schematic" src="../Images/fan-mosfets-schematic.jpg" width="300"/>
+
+Example Output Pin configuration:
+
+```bash
+[output_pin mosfet1]
+pin: rpi:gpio18
+value: 0
+shutdown_value: 0
+```
+
+Example Fan configuration:
+
+```bash
+[fan_generic fan1]
+pin: rpi:gpio18
+```
+
+Example Hardware PWM Fan configuration:
+
+```bash
+[fan_generic fan1]
+pin: rpi:pwmchip0/pwm0
+hardware_pwm: true
+```
 
 # Setup
 
