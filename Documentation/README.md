@@ -208,6 +208,8 @@ hardware_pwm: true
 
 # Setup
 
+If you purchased your board already assembled, it is likely that the hat EEPROM has already been flashed. However, if you are building it yourself you will need [Flash the EEPROM by following this guide](../EEPROM/README.md).
+
 You should just be able to go through the [Klipper RPi micro-controller setup guide](https://www.klipper3d.org/RPi_microcontroller.html), and that page will be the most up-to-date with the latest Klipper version.
 
 ## Install the RC Script

@@ -6,7 +6,7 @@ The Raspberry Pi should be powered off before making any connections to the GPIO
 
 The hat is wired to connect the EEPROM to the Raspberry Pi's ID pins with the required pull up resistors.
 
-Connect the hat to the Pi and switch the Raspberry Pi on.
+Connect the hat to the Pi, remove the jumper from the WP1 header and switch on the Raspberry Pi.
 
 ## Install required tools
 
